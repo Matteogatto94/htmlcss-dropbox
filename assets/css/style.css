@@ -7,3 +7,46 @@
 img {
     max-width: 100%;
 }
+
+:root {
+    --bg-blue: #0061FF;
+    --bg-only_place: #B4D0E7;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.menu_left {
+    float: left;
+    
+}
+
+.menu_right {
+    float: right;
+}
+
+.menu_left,
+.menu_right {
+    padding: 1rem;
+}
+
+.btn {
+    background-color: var(--bg-blue);
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin: 0.5rem;
+    color: black;
+}
+
+
+header {
+    height: 100px;
+}
+
