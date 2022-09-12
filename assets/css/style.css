@@ -48,9 +48,9 @@ body {
 }
 
 .container {
-    width: 60%;
+    width: 65%;
     margin: 3rem auto;
-    max-width: 1200px;
+    max-width: 900px;
 }
 
 .clearfix::after {
@@ -109,4 +109,31 @@ h1 {
 .arrow {
     font-size: 3rem;
     position: absolute;
+}
+
+.check_business {
+    margin-top: 7rem;
+}
+
+.container_2 {
+    width: 60%;
+    margin: 3rem auto;
+}
+
+.container_2 h2 {
+    font-size: 30px;
+}
+
+.fatturazioni {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.year {
+    margin-left: 2rem;
+}
+
+.year,
+.month {
+    font-size: 15px;
 }
