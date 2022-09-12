@@ -13,6 +13,10 @@ img {
     --bg-only_place: #B4D0E7;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
     max-width: 100%;
     margin: auto;
