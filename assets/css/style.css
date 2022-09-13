@@ -212,4 +212,37 @@ hr {
     top: 30px;
 }
 
+.direct_contact {
+    margin-top: 7rem;
+}
+
+.check_partner {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.details_partner {
+    margin-left: 2rem;
+}
+
+.operation_business{
+    margin-top: 7rem;
+}
+
+.operation_business h2 {
+    margin-bottom: 5rem;
+}
+
+.operation_business .col-4 {
+    margin-left: 2rem;
+}
+
+.utility_team {
+    margin-top: 7rem;
+}
+
+.utility_team p {
+    color:blue;
+    text-decoration: underline;
+}
 /* #endregion body */
