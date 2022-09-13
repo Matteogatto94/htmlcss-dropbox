@@ -80,7 +80,7 @@ body {
     width: 6rem;
 }
 
-a {
+header a {
     text-decoration: none;
     margin: 0.5rem;
     color: black;
@@ -100,6 +100,10 @@ h1 {
     padding: 1rem;
     
     
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
 }
 
 .col-4 {
@@ -206,6 +210,10 @@ h1 {
     color: blue;
 }
 
+.dati_pacchetto_2 span {
+    line-height: 25px;
+}
+
 .btn_right {
     position: absolute;
     right: 0;
@@ -278,4 +286,46 @@ h1 {
 .faq hr {
     margin-top: 1rem;
 }
+
+.faq {
+    margin-bottom: 7rem;
+}
 /* #endregion body */
+
+/* #region footer */
+
+footer {
+    background-color: black;
+    color: white;
+    line-height: 2rem;
+    width: 100%;
+     
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.credits_references {
+    padding: 2rem 0;
+}
+
+.credits_title,
+.credits_references {
+    margin-left: 1.5rem;
+}
+
+footer hr {
+    width: 100px;
+    margin-top: 4rem;
+}
+
+.container_footer {
+   width: 80%;
+   margin: 0 auto;
+   padding: 3rem;
+   
+}
+
+/* #endregion footer */
