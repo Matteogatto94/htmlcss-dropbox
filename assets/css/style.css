@@ -198,7 +198,7 @@ h1 {
     color: blue;
 }
 
-hr {
+.column hr {
     width: 50px;
 }
 
@@ -244,5 +244,38 @@ hr {
 .utility_team p {
     color:blue;
     text-decoration: underline;
+}
+
+.try_it {
+    background-color: var(--bg-only_place);
+    padding: 1rem;
+    position: relative;
+}
+
+.btn_try {
+    
+    background-color: white;
+    padding: 0.5rem 1.5rem;
+    position: absolute;
+    top: -80;
+}
+
+.faq {
+    margin-top: 7rem;
+}
+
+.answer_1 {
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.arrow_2 {
+    position: absolute;
+    right: 0;
+}
+
+.faq hr {
+    margin-top: 1rem;
 }
 /* #endregion body */
